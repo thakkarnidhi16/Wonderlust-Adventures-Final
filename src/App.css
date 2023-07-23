@@ -1,0 +1,512 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header, footer {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  font-family: Arial, sans-serif; 
+}
+footer {
+ 
+ 
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subscribe input {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.subscribe button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #0056b3;
+}
+
+.subscribe button:focus {
+  outline: none;
+}
+
+.subscribe input:focus {
+  outline: none;
+}
+
+.subscribe input::placeholder {
+  color: #ccc;
+  text-align: center;
+}
+
+.subscribe input:-ms-input-placeholder {
+  color: #ccc;
+  text-align: center;
+}
+
+.subscribe input::-ms-input-placeholder {
+  color: #ccc;
+  text-align: center;
+}
+
+
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left h1 {
+  margin-right: 10px;
+  font-size: 20px;
+  
+}
+
+.header-left img {
+  height: 40px;
+}
+
+.header-right ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-right li {
+  margin-left: 10px;
+}
+
+.header-right  {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #fff; 
+  font-size: 18px;
+}
+
+.language-button {
+  color: white;
+}
+
+
+
+
+
+
+/* Home Page styles */
+.home-section {
+  background-color:#D3D3D3;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.home-section h1 {
+  font-size: 28px;
+  color: darkred;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+.home-section img {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+/* Destination page */
+
+body {
+  background-color: #f8f8f8;
+}
+
+.search-section {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.search-section input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.top-places-section {
+  text-align: center;
+}
+
+.top-places-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: darkred;
+  font-weight: bold;
+}
+
+.top-places {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+.place {
+  width: 300px;
+  margin: 10px;
+}
+
+.place img {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 4px;
+}
+
+.place a {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  color:darkred;
+   
+  text-decoration: none;
+}
+
+.place a:hover {
+  text-decoration: underline;
+}
+
+/* Toronto page */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-section {
+  margin-bottom: 40px;
+}
+
+.top-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.top-section p {
+  line-height: 1.6;
+}
+
+.top-section img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  margin-top: 20px;
+}
+
+.calendar-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.places-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.torontoPlaces {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.torontoPlace {
+  flex: 0 0 auto;
+  margin: 10px;
+  position: relative;
+}
+
+.torontoPlace img {
+  width: 350px;
+  height: 300px; 
+  object-fit: cover;
+}
+
+.torontoPlace p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+.calendar-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.custom-calendar .react-calendar__tile {
+  padding: 0;
+}
+
+.custom-calendar .react-calendar__tile--hasActive {
+  background-color: #e5f3ff;
+}
+
+.highlighted-date {
+  color: #fff;
+  background-color: #007bff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.calendar-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Niagara page */
+.niagara-container {
+  text-align: center;
+}
+
+.niagara-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.niagara-container img {
+  max-width: 100x; 
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.attractions-section {
+  margin-top: 40px;
+}
+
+.attractions-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.attractions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.attraction {
+  flex: 0 0 350px;
+}
+
+.attraction img {
+  width: 100%;
+  height: 250px;
+}
+
+.attraction p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.city-container {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.activities-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activities-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.activities-list-item .activity-name {
+  flex-grow: 1;
+}
+
+.activities-list-item .remove-button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+.activities-list-item .remove-button:hover {
+  background-color: #c82333;
+}
+
+.activities-list-item .remove-button:focus {
+  outline: none;
+}
+
+.activities-list-item .remove-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.save-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.save-button:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
