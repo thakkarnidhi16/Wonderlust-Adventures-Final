@@ -65,13 +65,14 @@ const DestinationPage = () => {
             <Link to="/toronto">{t('toronto')}</Link>
           </div>
           <div className="place">
-            <img src={vancouver} alt={t('vancouver')} />
-            <Link to="/vancouver">{t('vancouver')}</Link>
-          </div>
-          <div className="place">
             <img src={Niagara} alt={t('niagaraFalls')} />
             <Link to="/Niagara">{t('niagaraFalls')}</Link>
           </div>
+          <div className="place">
+            <img src={vancouver} alt={t('vancouver')} />
+            <Link to="/vancouver">{t('vancouver')}</Link>
+          </div>
+        
           <div className="place">
             <img src={Banff} alt={t('banff')} />
             <Link to="/banff">{t('banff')}</Link>

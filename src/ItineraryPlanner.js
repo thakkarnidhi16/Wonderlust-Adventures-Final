@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import tripPlan from "./images/tripPlan.jpg";
 
 const activitiesData = {
   Toronto: ['Ripley\'s Aquarium', 'CN Tower', 'Yonge-Dundas Square', 'Royal Ontario Museum', 'Toronto Islands'],
@@ -100,8 +101,9 @@ const ItineraryPlanner = () => {
 
   return (
     <div>
-      <h2>Itinerary Planner</h2>
-      <h3>Plan your trip here</h3>
+      <h3>Itinerary Planner</h3>
+      <h4>Plan your trip here</h4>
+      <h5> Click on Add city to start planning your trip </h5>
 
       {itinerary.map((city) => (
         <div key={city.id}>
@@ -155,6 +157,23 @@ const ItineraryPlanner = () => {
       <button onClick={handleAddCity}>Add City</button>
 
       <button onClick={handleSave}>Save</button>
+      <div className="spacing"></div>
+      <div className="additional-info">
+      <img src={tripPlan}  />
+      <h4>Read about the country</h4>
+          <p>
+            Canada is a diverse country with a variety of landscapes, climates, and cities. It will help you when you’re packing and making travel arrangements to know what to expect at your destination.
+          </p>
+          <h4>Find out which travel documents and/or permits you will need</h4>
+          <p>
+            The government of Canada website has a simple quiz you can take to find out if you need a visa to visit Canada.
+          </p>
+          <h4>Plan your trip</h4>
+          <p>
+            Write an itinerary of places you want to visit in Canada and the activities you want to do. Allow reasonable travel time and time to rest in between your plans. Keep your itinerary handy so you know where you are heading to next!
+          </p>
+      </div>
+
     </div>
   );
 };

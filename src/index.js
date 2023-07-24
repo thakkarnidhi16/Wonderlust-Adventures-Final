@@ -29,6 +29,13 @@ i18next
           'destinations': 'Destinations',
           'plan': 'Plan/Organize',
           'contact': 'Contact Us',
+
+          'discover': 'Discover the wonders of Canada with Wanderlust Adventures',
+    'subscribe': 'Subscribe to our newsletter',
+    'copyRight': '© 2023 Wanderlust Adventures. All rights reserved.',
+    'phone': 'Phone',
+    'email': 'Email',
+
           'homePageTitle': 'Canada is more than its hulking-mountain, craggy-coast good looks: it also cooks extraordinary meals, rocks cool culture, and unfurls wild, moose-spotting road trips.',
           'homePageAltText': 'Canada Landscape',
           
@@ -46,7 +53,16 @@ i18next
           'home': 'Accueil',
           'destinations': 'Destinations',
           'plan': 'Planifier/Organiser',
+
+          
+
           'contact': 'Contactez-nous',
+
+          'discover': 'Découvrez les merveilles du Canada avec Wanderlust Adventures',
+          'subscribe': 'Abonnez-vous à notre newsletter',
+          'copyRight': '© 2023 Wanderlust Adventures. Tous droits réservés.',
+          'phone': 'Téléphone',
+          'email': 'E-mail',
           'welcome':'french welcome',
           'homePageTitle': 'Le Canada est bien plus que son apparence imposante de montagnes et de côtes rocheuses : il propose également des plats extraordinaires, une culture fascinante et des itinéraires sauvages pour repérer les orignaux.',
           'homePageAltText': 'Paysage du Canada',

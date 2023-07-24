@@ -1,16 +1,33 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
-    <footer>
-      <p>Discover the wonders of Canada with Wanderlust Adventures.</p>
+    <footer className="footer-container">
+      <p>{t('discover')}</p>
       <div className="subscribe">
-        <input type="email" placeholder="Enter your email" />
-        <button>Subscribe</button>
+        <input type="email" placeholder={t('Enter your Email')} />
+        <button>{t('subscribe')}</button>
       </div>
-      <p>© 2023 Wanderlust Adventures. All rights reserved.</p>
+      <p className="copyRight">{t('copyRight')}</p>
+      <div className="contact-info">
+        <div>
+          {t('phone')}: +1-123-456-7890
+        </div>
+        <div>
+          {t('email')}: contact@wanderlustadventures.com
+        </div>
+      </div>
+     
     </footer>
   );
-}
+};
 
 export default Footer;

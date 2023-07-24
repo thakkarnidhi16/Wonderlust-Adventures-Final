@@ -31,15 +31,7 @@ const Toronto = () => {
           outside of the city.
         </p>
         <img src={toronto} alt="Toronto" />
-        <div className="calendar-container">
-          <h3>Best Time to Visit</h3>
-          <Calendar
-            className="custom-calendar"
-            tileClassName={({ date }) => (summerMonths.includes(date.getMonth()) ? 'summer-month' : null)}
-            tileContent={tileContent}
-          />
-          <p className="calendar-description"></p>
-        </div>
+        
       </div>
       <div className="places-section">
         <h3>Worth Seeing Places in Toronto</h3>

@@ -111,7 +111,7 @@ const ContactUsPage = () => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-      <div style={{ width: '70%', paddingRight: '20px', color: 'darkred' }}>
+      <div style={{ width: '70%', paddingRight: '20px' }}>
         <h2>Contact Us</h2>
         <h3>Frequently Asked Questions</h3>
         <Accordion fluid styled>
@@ -137,7 +137,7 @@ const ContactUsPage = () => {
         <p>Phone: +1 123-456-7890</p>
       </div>
       <div style={{ width: '30%', position: 'relative' }}>
-        <Segment style={{ position: 'sticky', top: '20px', color: 'darkred' }}>
+        <Segment style={{ position: 'sticky', top: '20px' }}>
           <h3>Chat with us</h3>
           <ChatBot steps={steps} />
         </Segment>
