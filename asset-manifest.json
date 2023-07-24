@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Wonderlust-Adventures-Final/static/css/main.97461d8b.css",
-    "main.js": "/Wonderlust-Adventures-Final/static/js/main.f13c70ca.js",
+    "main.css": "/Wonderlust-Adventures-Final/static/css/main.a4b1b35e.css",
+    "main.js": "/Wonderlust-Adventures-Final/static/js/main.364c94b4.js",
     "static/media/Banff.jpg": "/Wonderlust-Adventures-Final/static/media/Banff.346eea3c1435cbe564a4.jpg",
     "static/media/Niagara1.jpg": "/Wonderlust-Adventures-Final/static/media/Niagara1.157675af596896d3d6f4.jpg",
     "static/media/vancouver.jpg": "/Wonderlust-Adventures-Final/static/media/vancouver.c465ebf677b10586168b.jpg",
@@ -11,6 +11,7 @@
     "static/media/whitewaterwalk.jpg": "/Wonderlust-Adventures-Final/static/media/whitewaterwalk.dbecbea0fa22362840db.jpg",
     "static/media/royalOntario.jpg": "/Wonderlust-Adventures-Final/static/media/royalOntario.df34612c4354bfabe21c.jpg",
     "static/media/niagaracruises.jpg": "/Wonderlust-Adventures-Final/static/media/niagaracruises.e1d92239e2f5fb164d7e.jpg",
+    "static/media/tripPlan.jpg": "/Wonderlust-Adventures-Final/static/media/tripPlan.7571c7fb65b7dcd54384.jpg",
     "static/media/Niagara.jpg": "/Wonderlust-Adventures-Final/static/media/Niagara.175d3b0187a4af2ae201.jpg",
     "static/media/journeybehind.jpg": "/Wonderlust-Adventures-Final/static/media/journeybehind.ea019ca767977cf5094d.jpg",
     "static/media/toronto1.jpg": "/Wonderlust-Adventures-Final/static/media/toronto1.64b183cd0d8594c6eb7a.jpg",
@@ -19,11 +20,11 @@
     "static/media/Ripley's.jpg": "/Wonderlust-Adventures-Final/static/media/Ripley's.990097ffcd04bc8d68d5.jpg",
     "index.html": "/Wonderlust-Adventures-Final/index.html",
     "static/media/getFetch.cjs": "/Wonderlust-Adventures-Final/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.97461d8b.css.map": "/Wonderlust-Adventures-Final/static/css/main.97461d8b.css.map",
-    "main.f13c70ca.js.map": "/Wonderlust-Adventures-Final/static/js/main.f13c70ca.js.map"
+    "main.a4b1b35e.css.map": "/Wonderlust-Adventures-Final/static/css/main.a4b1b35e.css.map",
+    "main.364c94b4.js.map": "/Wonderlust-Adventures-Final/static/js/main.364c94b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.97461d8b.css",
-    "static/js/main.f13c70ca.js"
+    "static/css/main.a4b1b35e.css",
+    "static/js/main.364c94b4.js"
   ]
 }
